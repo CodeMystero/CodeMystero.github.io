@@ -13,6 +13,6 @@ docs:
   - title: "Story"
     children:
       - title: "Category"
-      url: /categories/
+        url: /categories/
       - title: "Tag"
-      url: /tags/
+        url: /tags/
