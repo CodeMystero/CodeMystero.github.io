@@ -11,8 +11,8 @@ main:
     
 docs:
   - title: "Story"
-  children:
-    - title: "Category"
-    url: /categories/
-    - title: "Tag"
-    url: /tags/
+    children:
+      - title: "Category"
+      url: /categories/
+      - title: "Tag"
+      url: /tags/
