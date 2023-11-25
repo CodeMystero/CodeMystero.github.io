@@ -10,7 +10,9 @@ main:
     url: /myprofile/
     
 docs:
-  - title: "Category"
-    url: /categories/
-  - title: "Tag"
-    url: /tags/
+  - title: "Story"
+    children:
+      - title: "Category"
+        url: /categories/
+      - title: "Tag"
+        url: /tags/
