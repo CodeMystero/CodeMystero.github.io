@@ -8,12 +8,7 @@ main:
     url: /search/
   - title: "My profile"
     url: /myprofile/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+    
 docs:
   - title: "Story"
   children:
