@@ -10,7 +10,7 @@ main:
     url: /myprofile/
     
 docs:
-  - title: "Story"
+  - title: "Contents"
     children:
       - title: "Category"
         url: /categories/
