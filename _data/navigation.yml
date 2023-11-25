@@ -10,5 +10,7 @@ main:
     url: /myprofile/
     
 docs:
-  - title: "Story"
-    url: /story/
+  - title: "category"
+    url: /category/
+  - title: "tag"
+    url: /tags/
