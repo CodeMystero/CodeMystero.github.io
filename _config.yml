@@ -1,4 +1,4 @@
-# Welcome to Jekyll!
+9# Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
@@ -292,4 +292,4 @@ defaults:
       related: true
       show_date: true
       sidebar:
-          nav: "docs"
+        nav: "docs"
