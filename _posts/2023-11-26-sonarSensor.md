@@ -97,21 +97,21 @@ distance = ((echoTime/2.0) *0.034);
 
 
 ```c
-	HAL_TIM_Base_Start(&htim3); //base timer start
-	TIM3->PSC = 100-1;
+HAL_TIM_Base_Start(&htim3); //base timer start
+TIM3->PSC = 100-1;
 	
-	HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_1);
-	TIM4->PSC |=100-1 ; // 1000000Hz
-	TIM4->ARR = ((1000000/1700) - 1);
-	TIM4->CCR1 &= 0x00;
+HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_1);
+TIM4->PSC |=100-1 ; // 1000000Hz
+TIM4->ARR = ((1000000/1700) - 1);
+TIM4->CCR1 &= 0x00;
 
-  while(1){
-		if( distance <10){
-			TIM4->CCR1 = (1000000/1700)/2 - 1;
-			if(distance <10 && distance >=2) HAL_Delay(distance *30);
-			if (distance < 2)HAL_Delay(1000);
-			TIM4->CCR1 &= 0x00;}
-		HAL_Delay(50);
-  }
+while(1){
+if( distance <10){
+  TIM4->CCR1 = (1000000/1700)/2 - 1;
+  if(distance <10 && distance >=2) HAL_Delay(distance *30);
+  if (distance < 2)HAL_Delay(1000);
+  TIM4->CCR1 &= 0x00;
+}
+HAL_Delay(50);
 ```
 
