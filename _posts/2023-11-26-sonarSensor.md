@@ -23,6 +23,7 @@ sidebar:
 
 ## operating principle
 >HC-SR04 typically operates using four pins
+
 ### pin description
 
 |pin|description|
