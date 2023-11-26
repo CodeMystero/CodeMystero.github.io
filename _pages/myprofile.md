@@ -74,7 +74,7 @@ toc: true
 <img src="https://img.shields.io/badge/Siemens-yellow?style=flat&logo=siemens&logoColor=009999"/>
 <img src="https://img.shields.io/badge/National_Grid-black?style=flat&logo=nationalgrid&logoColor=#00148C"/>
 
-- [click here to see related post](/path/to/your/file.zip)
+###### [click here to see related post](assets/dissertation/poster_UOM.pdf)
 ---
 
 
