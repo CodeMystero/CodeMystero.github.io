@@ -31,7 +31,7 @@ sidebar:
 |GRD| ground voltage|
 |Trig|Trigger input to sensor module|
 |Echo|Echo purse output to user module|
-</br>
+
 
 ### pulse signal
 >To operate the sensor, requies to send the pulse signal (10us TTL) specified in the datasheet. There are two methods for this. The first method involves sending a PWM signal and using the input capture method to read the echo. The second method is to use SysTick to create a delay function and adjust the GPIO pin output according to the specifications in the datasheet. please refer to the table below
@@ -52,7 +52,7 @@ sidebar:
 #define STK_CRTL 		*(volatile unsigned int*)0xE000E010
 #define STK_LOAD 		*(volatile unsigned int*)0xE000E014
 #define STK_VAL  		*(volatile unsigned int*)0xE000E018
-#define STK_CALIB 	*(volatile unsigned int*)0xE000E01C
+#define STK_CALIB 	        *(volatile unsigned int*)0xE000E01C
 
 
 // the system clock period to 1us as follows:
@@ -63,7 +63,8 @@ void SysTick_Init(){
 	uwTick = 0;
 }
 
-//The following function completes a sequence of generating a pulse, reading the echo, and then restoring the clock to its original state. so that Hal_Delay() can be used again
+//The following function completes a sequence of generating a pulse, reading the echo,
+//and then restoring the clock to its original state. so that Hal_Delay() can be used again
 void HAL_Delay_Porting(){
 	STK_LOAD = 100000 - 1;
 	STK_CRTL |= 7;
