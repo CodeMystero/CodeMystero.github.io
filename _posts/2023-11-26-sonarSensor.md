@@ -95,7 +95,7 @@ HAL_Delay_Porting();
 # rear vehicle detection 
 >To implement a rear sensor for vehicles, it is necessary to convert the echo signal (in microseconds) coming from the sensor into distance. To implement sound, the pin allocated for the Timer is connected to the piezoelectric speaker.
 >>speed of sound = 340ms = 0.034us
->>>**distance = ((echoTime/2.0) *0.034)**
+>>>**distance = ((echoTime/2.0)×0.034)**
 
 
 ```c
