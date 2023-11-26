@@ -37,7 +37,7 @@ sidebar:
 
 </br>
 
-<img src="..\prj\images\2023-11-26-RVD_sonarSensor\sornal_sensor.png">
+<img src="/assets/images/2023-11-26-RVD_sonarSensor/sornal_sensor.png">
 </br></br>
 
 # systick configuration 
