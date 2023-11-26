@@ -4,6 +4,7 @@ permalink: /myprofile/
 author_profile: true
 sidebar_main: true
 toc: true
+toc_sticky: true
 ---
 
 ![header](https://capsule-render.vercel.app/api?type=rect&color=20:660099,100:E2231A)
