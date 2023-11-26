@@ -24,6 +24,7 @@ sidebar:
 ## operating principle
 >HC-SR04 typically operates using four pins</br>
 ### pin description
+</br>
 |pin|description|
 |---|---|
 |Vcc|high voltage|
@@ -47,7 +48,7 @@ sidebar:
 ## define systick register address
 >define required register address 
 
-```C
+```cpp
 #define STK_CRTL 		*(volatile unsigned int*)0xE000E010
 #define STK_LOAD 		*(volatile unsigned int*)0xE000E014
 #define STK_VAL  		 *(volatile unsigned int*)0xE000E018
@@ -94,7 +95,7 @@ HAL_Delay_Porting();
 distance = ((echoTime/2.0) *0.034);
 
 
-```C
+```cpp
 	HAL_TIM_Base_Start(&htim3); //base timer start
 	TIM3->PSC = 100-1;
 	
