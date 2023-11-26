@@ -1,7 +1,7 @@
 ---
 layout: single
 
-title: "[STM32] Driving ultrasonic sencor(HC-SR04)"
+title: "[STM32] Driving ultrasonic sensor(HC-SR04)"
 excerpt: "using systick for Rear Vehicle Detection"
 
 categories:
