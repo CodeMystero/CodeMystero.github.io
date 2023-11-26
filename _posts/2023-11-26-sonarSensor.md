@@ -7,7 +7,7 @@ excerpt: "using systick for Rear Vehicle Detection"
 categories:
   - Firware enginnering
 
-tag: [STM32, systick, RVD] 
+tag: [STM32, systick, RVD, Keil, nucleo, HCSR04] 
 
 toc: true
 toc_sticky: true
