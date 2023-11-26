@@ -79,7 +79,7 @@ toc: true
 
 
 #### 📂Other docs📂
-- [english version resume](/path/)
+- [english version resume](/assets/cv/resume.pdf)
 - [Certificate in King's college London](/path/)
 - [transcript in King's college London](/path/)
 - [Certificate in University of Manchester](/path/)
