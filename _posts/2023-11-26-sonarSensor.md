@@ -22,7 +22,7 @@ sidebar:
 # HC-SR04 (ultrasonic sensor)
 
 ## operating principle
->HC-SR04 typically operates using four pins</br>
+>HC-SR04 typically operates using four pins
 ### pin description
 
 |pin|description|
@@ -55,7 +55,7 @@ sidebar:
 #define STK_CALIB 	        *(volatile unsigned int*)0xE000E01C
 
 
-// the system clock period to 1us as follows:
+// the system clock set to 1us as follows:
 void SysTick_Init(){
 	STK_LOAD = 100 - 1;		//1us
 	STK_VAL = 0;
