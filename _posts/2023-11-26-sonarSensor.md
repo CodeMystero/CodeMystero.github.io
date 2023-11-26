@@ -1,7 +1,9 @@
 ---
 layout: single
-title: "[STM32] driving Ultrasonic sensor (HC-SR04) using systick for Rear Vehicle Detection"
-categories: "[intel]_edge_AI_software"
+title: "[STM32] driving Ultrasonic sencor(HC-SR04)"
+excerpt: "using systick for Rear Vehicle Detection"
+categories:
+  - [intel] edge AI S/w academy
 tag: [STM32, systick, RVD] 
 toc: true
 toc_sticky: true
