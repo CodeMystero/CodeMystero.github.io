@@ -46,7 +46,7 @@ toc: true
 
 #### 📖Dissertation📖
 
-##### [Optimal sensor placement for everyday motion tracking of a neurological patient](assets/dissertation/dissertation_KCL.pdf)
+##### [Optimal sensor placement for everyday motion tracking of a neurological patient](/assets/dissertation/dissertation_KCL.pdf)
 
 ![React](https://img.shields.io/badge/Tag_:-gray?style=flat)
 <img src="https://img.shields.io/badge/Python-yellow?style=flat&logo=python&logoColor=3776AB"/>
@@ -64,7 +64,7 @@ toc: true
 ![React](https://img.shields.io/badge/Medical_device-f39c12?style=flat)
 ---
 
-##### [Alternative high-power transmission technology using Gas Insulated Transmission Line (GIL)](assets/dissertation/dissertation_UOM.pdf)
+##### [Alternative high-power transmission technology using Gas Insulated Transmission Line (GIL)](/assets/dissertation/dissertation_UOM.pdf)
 
 ![React](https://img.shields.io/badge/Tag_:-gray?style=flat)
 ![React](https://img.shields.io/badge/Transmisiion_line-f39c12?style=flat)
@@ -74,13 +74,13 @@ toc: true
 <img src="https://img.shields.io/badge/Siemens-yellow?style=flat&logo=siemens&logoColor=009999"/>
 <img src="https://img.shields.io/badge/National_Grid-black?style=flat&logo=nationalgrid&logoColor=#00148C"/>
 
-###### [click here to see related post](assets/dissertation/poster_UOM.pdf)
+###### [click here to see related post](/assets/dissertation/poster_UOM.pdf)
 ---
 
 
 #### 📂Other docs📂
 - [english version resume](/assets/cv/resume.pdf)
-- [Certificate in King's college London](assets/certificate/certificate_KCL.pdf)
-- [transcript in King's college London](assets/transcript/transcript_KCL.pdf)
-- [Certificate in University of Manchester](assets/certificate/certificate_UOM.pdf)
-- [transcript in University of Manchester](assets/transcript/transcript_UOM.pdf)
+- [Certificate in King's college London](/assets/certificate/certificate_KCL.pdf)
+- [transcript in King's college London](/assets/transcript/transcript_KCL.pdf)
+- [Certificate in University of Manchester](/assets/certificate/certificate_UOM.pdf)
+- [transcript in University of Manchester](/assets/transcript/transcript_UOM.pdf)
