@@ -9,11 +9,9 @@ toc: true
 ![header](https://capsule-render.vercel.app/api?type=rect&color=20:660099,100:E2231A)
 👋welcome to my profile
 
-<br/>
 
 # Seunghwan Kim 
 
-<br/>
 
 #### 🛠️Programming skills🛠️
 
@@ -26,7 +24,6 @@ toc: true
 <img src="https://img.shields.io/badge/SQL-white?style=flat&logo=mysql&logoColor=4479A1"/>
 
 
-<br/>
 
 #### 🚀Software skills🚀
 
@@ -37,19 +34,15 @@ toc: true
 <img src="https://img.shields.io/badge/labVIEW-black?style=flat&logo=labview&logoColor=FFDB00"/>
 
 
-<br/>
-
 #### 🧑‍💼Career🧑‍💼
 >In 2023, decided to leave behind my previous career and embarked on the path of becoming a developer. If you wish to review my past professional journey, please refer to the CV link below.
 
-<br/>
 
 #### 🎓Education🎓
 ![React](https://img.shields.io/badge/[intel]_edge_AI_S/W_academy-blue?style=flat)
 ![React](https://img.shields.io/badge/King's_College_London-MSc_Data_Science-red?style=flat)
 ![React](https://img.shields.io/badge/University_of_Manchester-BEng_(Hons)_Electrical_and_Electronic_Engineer-purple?style=flat)
 
-<br/>
 
 #### 📖Dissertation📖
 
