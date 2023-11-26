@@ -63,7 +63,7 @@ toc_sticky: true
 ![React](https://img.shields.io/badge/Parkinson's-e74c3c?style=flat)
 ![React](https://img.shields.io/badge/Optimization_method-1abc9c?style=flat)
 ![React](https://img.shields.io/badge/Medical_device-f39c12?style=flat)
----
+
 
 ##### [Alternative high-power transmission technology using Gas Insulated Transmission Line (GIL)](/assets/dissertation/dissertation_UOM.pdf)
 
