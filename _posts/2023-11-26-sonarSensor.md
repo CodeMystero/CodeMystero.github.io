@@ -24,7 +24,7 @@ sidebar:
 ## operating principle
 >HC-SR04 typically operates using four pins</br>
 ### pin description
-</br>
+
 |pin|description|
 |---|---|
 |Vcc|high voltage|
@@ -36,23 +36,23 @@ sidebar:
 ### pulse signal
 >To operate the sensor, requies to send the pulse signal (10us TTL) specified in the datasheet. There are two methods for this. The first method involves sending a PWM signal and using the input capture method to read the echo. The second method is to use SysTick to create a delay function and adjust the GPIO pin output according to the specifications in the datasheet. please refer to the table below
 
-</br>
+
 
 <img src="/assets/images/2023-11-26-RVD_sonarSensor/sornal_sensor.png">
-</br></br>
+
 
 # systick configuration 
 > To operate the sensor, microsecond (us) delays are required. However, the default HAL_Delay provided by STM32 offers delays only in milliseconds (ms). Therefore, we create a microsecond delay function using SysTick configuration.
-</br>
+
 
 ## define systick register address
 >define required register address 
 
-```cpp
+```c
 #define STK_CRTL 		*(volatile unsigned int*)0xE000E010
 #define STK_LOAD 		*(volatile unsigned int*)0xE000E014
-#define STK_VAL  		 *(volatile unsigned int*)0xE000E018
-#define STK_CALIB 	    *(volatile unsigned int*)0xE000E01C
+#define STK_VAL  		*(volatile unsigned int*)0xE000E018
+#define STK_CALIB 	*(volatile unsigned int*)0xE000E01C
 
 
 // the system clock period to 1us as follows:
@@ -86,7 +86,7 @@ distance = ((echoTime/2.0) *0.034);
 printf("distance = %.1lf cm \r\n",((echoTime/2.0) *0.034));
 HAL_Delay_Porting();
 ```
-</br>
+
 
 
 # rear vehicle detection 
@@ -95,7 +95,7 @@ HAL_Delay_Porting();
 distance = ((echoTime/2.0) *0.034);
 
 
-```cpp
+```c
 	HAL_TIM_Base_Start(&htim3); //base timer start
 	TIM3->PSC = 100-1;
 	
