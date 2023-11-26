@@ -46,7 +46,7 @@ toc: true
 
 #### 📖Dissertation📖
 
-##### [Optimal sensor placement for everyday motion tracking of a neurological patient](/path/to/your/file.zip)
+##### [Optimal sensor placement for everyday motion tracking of a neurological patient](assets/dissertation/dissertation_KCL.pdf)
 
 ![React](https://img.shields.io/badge/Tag_:-gray?style=flat)
 <img src="https://img.shields.io/badge/Python-yellow?style=flat&logo=python&logoColor=3776AB"/>
@@ -64,7 +64,7 @@ toc: true
 ![React](https://img.shields.io/badge/Medical_device-f39c12?style=flat)
 ---
 
-##### [Alternative high-power transmission technology using Gas Insulated Transmission Line (GIL)](/path/to/your/file.zip)
+##### [Alternative high-power transmission technology using Gas Insulated Transmission Line (GIL)](assets/dissertation/dissertation_UOM.pdf)
 
 ![React](https://img.shields.io/badge/Tag_:-gray?style=flat)
 ![React](https://img.shields.io/badge/Transmisiion_line-f39c12?style=flat)
