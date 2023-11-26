@@ -63,8 +63,9 @@ void SysTick_Init(){
 	uwTick = 0;
 }
 
-//The following function completes a sequence of generating a pulse, reading the echo,
-//and then restoring the clock to its original state. so that Hal_Delay() can be used again
+/*The following function completes a sequence of generating
+a pulse, reading the echo, and then restoring the clock to
+its original state. so that Hal_Delay() can be used again*/
 void HAL_Delay_Porting(){
 	STK_LOAD = 100000 - 1;
 	STK_CRTL |= 7;
