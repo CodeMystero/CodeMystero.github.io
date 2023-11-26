@@ -1,12 +1,17 @@
 ---
 layout: single
+
 title: "[STM32] driving Ultrasonic sencor(HC-SR04)"
 excerpt: "using systick for Rear Vehicle Detection"
+
 categories:
   - [intel] edge AI S/w academy
+
 tag: [STM32, systick, RVD] 
+
 toc: true
 toc_sticky: true
+
 author_profile: false
 sidebar:
   nav: "docs"
