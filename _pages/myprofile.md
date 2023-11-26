@@ -72,7 +72,6 @@ toc: true
 ---
 
 ##### [Alternative high-power transmission technology using Gas Insulated Transmission Line (GIL)](/path/to/your/file.zip)
-[click here to see related post](/path/to/your/file.zip)
 
 ![React](https://img.shields.io/badge/Tag_:-gray?style=flat)
 ![React](https://img.shields.io/badge/Transmisiion_line-f39c12?style=flat)
@@ -81,6 +80,8 @@ toc: true
 <img src="https://img.shields.io/badge/MATLAB-skyblue?style=flat&logo=MATLAB&logoColor=394049"/>
 <img src="https://img.shields.io/badge/Siemens-yellow?style=flat&logo=siemens&logoColor=009999"/>
 <img src="https://img.shields.io/badge/National_Grid-black?style=flat&logo=nationalgrid&logoColor=#00148C"/>
+
+- [click here to see related post](/path/to/your/file.zip)
 ---
 
 
