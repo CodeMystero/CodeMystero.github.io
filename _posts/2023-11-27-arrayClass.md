@@ -1,13 +1,13 @@
 ---
 layout: single
 
-title: "[OOP] Array manipulation using class"
-excerpt: "idx error, append"
+title: "[OOP] []operator, using array"
+excerpt: "adding idx error detection, append"
 
 categories:
   - Object oriented programming
 
-tag: [C/C++, OOP, array, error_detection, class] 
+tag: [C/C++, OOP, array, error_detection, class, operator] 
 
 toc: true
 toc_sticky: true
