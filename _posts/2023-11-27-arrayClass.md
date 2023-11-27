@@ -1,7 +1,7 @@
 ---
 layout: single
 
-title: "[OOP] []operator, using array"
+title: "[OOP] A square operator, using array"
 excerpt: "adding idx error detection, append"
 
 categories:
