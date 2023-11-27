@@ -105,6 +105,7 @@ void *memcpy(void *dest, const void *src, size_t n);
 ```
 
  The function takes three parameters:
+ 
 |||
 |---|---|
 |dest|A pointer to the destination array where the content is to be copied|
