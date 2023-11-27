@@ -1,7 +1,7 @@
 ---
 layout: single
 
-title: "[OOP] A square operator, using array"
+title: "[OOP] Square brackets operator, using array"
 excerpt: "adding idx error detection, append"
 
 categories:
