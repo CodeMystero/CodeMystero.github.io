@@ -65,7 +65,7 @@ int ArrTest::length(){
 
 ## Adding arr.append() function
 ### array.append(size)
-below code does not append materials of array, ***different to Python's .append()***, but append additional heap memory only so that subject array is ready to get additional contents to be included. appending contents to empty index of array can be done using *for* or *while* loop. ***Or there is another solution for this which is overloading***
+below code does not append materials of array, different to Python's .append(), but append additional heap memory only so that subject array is ready to get additional contents to be included. appending contents to empty index of array can be done using *for* or *while* loop. ***Or there is another solution for this which is overloading***
 
 ```cpp
 ArrTest& ArrTest::append(int size) {
