@@ -7,7 +7,7 @@ excerpt: "using SysTick for Rear Vehicle Detection"
 categories:
   - Firmware enginnering
 
-tag: [STM32, systick, RVD, armKeil, nucleo, HCSR04, C, piezo_speaker] 
+tag: [STM32, systick, RVD, armKeil, nucleo, HCSR04, C/C++, piezo_speaker] 
 
 toc: true
 toc_sticky: true
