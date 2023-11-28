@@ -23,7 +23,7 @@ name                     : "Seunghwan Kim"
 description              : "roads to new field"
 url                      : "https://CodeMystero.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "codemystero/comments" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "/codemystero/comments" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/sumo_profile.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
