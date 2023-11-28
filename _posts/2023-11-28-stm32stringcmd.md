@@ -87,8 +87,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart){
 ## Set putty 
 Check the serial line of the connected STM32 board in Device Manager and confirm the baud rate we set earlier. In Putty's serial mode, input the specified baud rate and open the connection. For convenience, save these settings so that you don't have to configure them every time you use Putty. An important point here is to ***check the ASCII code for the backspace***, which is essential for programming later. The author faced significant difficulties in debugging due to not checking this part accurately. push the reset button on nucleo board to check if it works okay.
 
-
-<p align="center"><img src="assets/images/2023-11-23-stm32stringInput/putty_config.gif"></p>
+<p align="center"><img src="/assets/images/2023-11-23-stm32stringInput/putty_config.gif"></p>
 
 ## Let's promgramming 
 
@@ -138,4 +137,4 @@ Additionally, if *rx_data* satisfies certain conditions specified in the followi
 
 If the command "moonlight on" is entered in Putty, the LED connected to the board starts the mood light. To use the mood light conveniently, PWM (Pulse Width Modulation) needs to be employed, and the theoretical aspects of this will be addressed later.
 
-<p align="center"><img src="assets/images/2023-11-23-stm32stringInput/outcomes.gif"></p>
+<p align="center"><img src="/assets/images/2023-11-23-stm32stringInput/outcomes.gif"></p>
