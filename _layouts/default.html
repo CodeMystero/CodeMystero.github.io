@@ -19,12 +19,6 @@
     {% include_cached masthead.html %}
     
     <div class="initial-content">
-      <!-- Language Switcher -->
-      <div class="language-switcher">
-        {% for lang in site.languages %}
-          <a href="{{ site.baseurl }}/{{ lang }}{{ page.url }}" {% if page.lang == lang %}class="current"{% endif %}>{{ lang }}</a>
-        {% endfor %}
-      </div>
       {{ content }}
     </div>
 
