@@ -18,6 +18,13 @@
     {% include_cached skip-links.html %}
     {% include_cached masthead.html %}
 
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+      {% for lang in site.languages %}
+        <a href="{{ site.baseurl }}/{{ lang }}{{ page.url }}" {% if page.lang == lang %}class="current"{% endif %}>{{ lang }}</a>
+      {% endfor %}
+    </div>
+    
     <div class="initial-content">
       {{ content }}
     </div>
