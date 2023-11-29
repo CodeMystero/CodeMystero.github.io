@@ -15,6 +15,9 @@ toc_sticky: true
 author_profile: false
 sidebar:
   nav: "docs"
+
+lang: en 
+permalink: /_posts/2023-11-26-sonarSensor.md
 ---
 
 ![header](https://capsule-render.vercel.app/api?type=rect&color=20:660099,100:E2231A)
