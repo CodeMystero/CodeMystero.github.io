@@ -91,3 +91,13 @@ ptr_1.use_counter(); // checking reference count -> 1 (ptr_1);
 ## weak_ptr
 A *weak_ptr* allows pointing to an arbitrary object without ownership. *weak_ptr* is commonly used to point to an object owned by a *shared_ptr*. It does not increase the reference count of *shared_ptr* and simply serves the role of referencing the object that the shared_ptr is pointing to. Thus, even when the reference count of a shared_ptr becomes 0, the object doesn't disappear
 
+```cpp
+weak_ptr<class> ptr_1;
+if(ptr_1.expired()) // if ptr_1's object is not availave (deleted)
+{
+  ptr_1.lock()->method; // weak_ptr can access to method by .lock() keyword only
+                        // if there is no object that ptr_1 point, .lock() will return NULL
+  ptr_1->method; // this is compile error !!!
+}
+```
+
