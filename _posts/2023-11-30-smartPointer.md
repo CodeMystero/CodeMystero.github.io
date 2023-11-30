@@ -83,8 +83,9 @@ shared_ptr enables multiple pointers to point to the same object. It tracks the 
 
 ```cpp
 shared_ptr<test> ptr_1 = make_shared<test>();
-//or
-shared_ptr<test> ptr_1(new test());
+shared_ptr<test> ptr_1(new test()); // alternative
+
+ptr_1.use_counter(); // checking reference count -> 1 (ptr_1);
 ```
 
 ## weak_ptr
