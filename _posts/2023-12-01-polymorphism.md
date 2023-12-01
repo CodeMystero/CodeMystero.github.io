@@ -1,13 +1,13 @@
 ---
 layout: single
 
-title: "[OOP] Polymorphism"
-excerpt: "dynamic binding, virtual"
+title: "[OOP] Polymorphism - Dynamic binding"
+excerpt: "interface, virtual and interface"
 
 categories:
   - Object oriented programming
 
-tag: [C/C++, OOP, inheritance, override, pointer, virtual] 
+tag: [C/C++, OOP, inheritance, override, pointer, virtual, interface] 
 
 toc: true
 toc_sticky: true
@@ -37,7 +37,7 @@ sidebar:
 
 ### Example of dynamic binding
 
-Example UML
+>Example UML
 
 ```mermaid
 classDiagram
