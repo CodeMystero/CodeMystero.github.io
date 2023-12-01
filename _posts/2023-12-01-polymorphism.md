@@ -100,7 +100,7 @@ public:
 }
 
 int main(){
-  SmartPhone iphone15Max = new iPhone_15_Max();
+  SmartPhone* iphone15Max = new iPhone_15_Max();
   shared_ptr<SmartPhone> iphoneSe4 (new Apple());
   shared_ptr<SmartPhone> galaxy_s23 = make_shared<Samsung>();
   //The three methods mentioned above all involve creating memory
@@ -181,10 +181,10 @@ If a class is intended for inheritance and dynamic binding, it is advisable to d
 ### Example of base pointer 
 
 ```cpp
-SmartPhone ptr_1 = new SmartPhone();
-SmartPhone ptr_2 = new Samsung();
-SmartPhone ptr_3 = new Apple();
-SmartPhone ptr_4 = new iPhone_15_Max();
+SmartPhone* ptr_1 = new SmartPhone();
+SmartPhone* ptr_2 = new Samsung();
+SmartPhone* ptr_3 = new Apple();
+SmartPhone* ptr_4 = new iPhone_15_Max();
 
 // if all take_a_pinture under override
 ptr_1.take_a_picture(); //SmartPhone::take_a_picture();
