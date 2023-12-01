@@ -103,7 +103,10 @@ int main(){
   SmartPhone iphone15Max = new iPhone_15_Max();
   shared_ptr<SmartPhone> iphoneSe4 (new Apple());
   shared_ptr<SmartPhone> galaxy_s23 = make_shared<Samsung>();
-  //The three methods mentioned above all involve creating memory for three different classes using the data type of SmartPhone. All three approaches use pointers in a somewhat similar manner. please refer to Smartpointer on this blog
+  //The three methods mentioned above all involve creating memory
+  //for three different classes using the data type of SmartPhone.
+  //All three approaches use pointers in a somewhat similar manner.
+  //please refer to Smartpointer on this blog
 
   iphone15Max.take_a_picture() 
   // iPhone_15_Max::take_a_picture()
