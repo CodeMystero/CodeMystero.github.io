@@ -39,7 +39,7 @@ sidebar:
 
 >Example UML
 
-```mermaid
+<div class="mermaid"> 
 classDiagram
       SmartPhone <|-- Samsung
       SmartPhone <|-- Apple
@@ -62,7 +62,7 @@ classDiagram
           ...
           +Take_a_picture()
       }
-```
+</div>
 
 The UML described above can be organized into code as follows.
 
