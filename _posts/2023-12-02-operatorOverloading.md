@@ -271,7 +271,7 @@ int main(){
 In this manner, we can arbitrarily define stream insertion (<<) and extraction (>>) operator overloading to return the desired values
 It is highly recommended to create global objects for the purpose of using these operators. This is because modifying the iostream to tamper with the cout object is technically risky and involves potentially dangerous operations.
 
->cout.operator<<(value) <|--- (X)<br>operator<<(cout,value) <|--- (O), this is global function
+>cout.operator<<(value)(X)<br>operator<<(cout,value)(O), this is global function
 
 If we make operator<< as class member function, the structure will be 
 
