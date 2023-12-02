@@ -2,7 +2,7 @@
 layout: single
 
 title: "[OOP] Operator overloading"
-excerpt: "function, stream I/O, '=' and '[]'"
+excerpt: "function, stream I/O, '=' and subscript"
 
 categories:
   - Object oriented programming
