@@ -253,8 +253,8 @@ what should we do if we want to make code as below, and make same result to the 
 we can use operator<< overriding.
 
 > let's reproduce the usage of std::cout and examine how the << operator is utilized
-```cpp
 
+```cpp
 class MyOstream{
 public:
     void operator<<(int value){
@@ -278,6 +278,7 @@ If we make operator<< as class member function, the structure will be
 >> p1 << std::cout; // p1.operator<<(std::cout)
 
 this is how we make it clearly
+
 ```cpp
 //ostream's copy is prohibited thus & is essential 
 friend std::ostream& operator<<(str::ostream& os, const point& rhs){
@@ -291,6 +292,7 @@ int main()
     cout<<p1<<endl;
 }
 ```
+
 Let's see extraction(>>) operator
 
 ```cpp
