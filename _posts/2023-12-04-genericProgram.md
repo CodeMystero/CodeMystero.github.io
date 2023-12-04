@@ -230,7 +230,7 @@ template <typename T>
 class employee<T,double>{
 private:
   T name;
-  U age;
+  double age;
 public:
   employee(T name, double age)
     :name(name){
