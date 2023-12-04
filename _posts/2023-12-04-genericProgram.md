@@ -86,7 +86,7 @@ When only the template code exists, the compiler does not generate the actual fu
 #### Multiple parameters in templates
 
 ```cpp
-template <typedate T, typedata U>
+template <typename T, typename U>
 void show(T a, U b){
   return a>b?a:b;
 }
@@ -242,7 +242,7 @@ public:
 #### Class template parameters
 
 ```cpp
-template<typedata T, int N>
+template<typename T, int N>
 class array{
 public:
   int size = N;
