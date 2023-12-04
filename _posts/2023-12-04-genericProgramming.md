@@ -71,6 +71,7 @@ T MAX(T a, T b){
 Now, the above code will generate appropriate code during compilation for any data type we input, returning the desired value. at the line of ***typename T***, It does not need to be T, but can be any character or string such as ***"ABC"***. normally it is T, a few prefers U instead of it.
 
 this is how to call the function with tymename T
+
 ```cpp
 MAX<int>(a,b);
 MAX<double>(a,b);
@@ -156,7 +157,7 @@ int main(){
 
 now we can have the result below
 
-```consol
+```console
 apple
 ```
 
