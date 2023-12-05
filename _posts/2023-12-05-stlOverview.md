@@ -1,7 +1,7 @@
 ---
 layout: single
 
-title: "[OOP] STL overview"
+title: "[OOP] Standard template library"
 excerpt: "characteristics of container class"
 
 categories:
