@@ -482,8 +482,8 @@ std::map is an associative container that stores key-value pairs. It allows effi
 
 int main() {
     // Declare and initialize a std::map of string keys and integer values.
-    
-
+    std::map<std::string, int> myMap = {("one", 1), ("two", 2), ("three", 3)};
+    //'{' replaced by '(' since syntax error in markdown
     // Insert a new key-value pair into the map.
     myMap["four"] = 4;
 
