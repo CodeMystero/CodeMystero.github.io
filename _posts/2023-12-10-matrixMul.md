@@ -108,7 +108,7 @@ finish = clock();
 printf("processing time taken: %f(s)\n",((double)finish-start)/CLOCKS_PER_SEC);
 ```
 
-```consol
+```cpp
 processing time taken: 0.000006(s)
 ```
 
