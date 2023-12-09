@@ -108,8 +108,8 @@ finish = clock();
 printf("processing time taken: %f(s)\n",((double)finish-start)/CLOCKS_PER_SEC);
 ```
 
-```cpp
-processing time take: 0.000006(s)
+```consol
+processing time taken: 0.000006(s)
 ```
 
 # matrix.c
