@@ -2,7 +2,7 @@
 layout: single
 
 title: "[Linux] Handling "make" utility"
-excerpt: "Makefile: dependency rule of files"
+excerpt: "target, dependency and command"
 
 categories:
   - Linux server
