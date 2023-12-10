@@ -1,7 +1,7 @@
 ---
 layout: single
 
-title: "[Linux] Handling "make" utility"
+title: "[Linux] Makefile - make utility"
 excerpt: "Makefile: dependency rule of files"
 
 categories:
