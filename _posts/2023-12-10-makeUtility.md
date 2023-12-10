@@ -1,8 +1,8 @@
 ---
 layout: single
 
-title: "[Linux] Function arguments of main()"
-excerpt: "argument count, argument vector"
+title: "[Linux] Handling "make" utility"
+excerpt: "Makefile: dependency rule of files"
 
 categories:
   - Linux server
