@@ -25,7 +25,7 @@ The code to find the product of the matrix is divided into three files, **main.c
 
 ## Declaration of matrixes
 
-Let's write a code that multiplies two matrices, A and B, and assigns the result to matrix C. We will use a double pointer to create a 2x2 matrix.
+Let's write a code that multiplies two matrices, A and B, and assigns the result to matrix C. We will use a double pointer to create the matrix.
 
 ```cpp
 int** a;
