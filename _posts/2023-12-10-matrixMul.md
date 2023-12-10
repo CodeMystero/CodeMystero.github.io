@@ -33,64 +33,6 @@ int** b;
 int** c;
 ```
 
-## Initialization of matrixes
-
-In the next step, code will be written to initialize matrices A, B, and C for calculating C. However, the purpose of writing this code is to use threads. To achieve that, the matrix sizes will exceed 1000x1000. Since the stack size won't be able to handle even one matrix, causing a core dump, matrices A, B, and C will be dynamically allocated.
-
-Additionally, the matrix sizes will be obtained as command line arguments in the main function by adding the argc and argv parameters.
-
-```cpp
-int main(int argc,char** argv)
-    if (argc == 2){
-        len = atoi(argv[1]);
-    }else{
-        len = 10; //intialzing as 10 if no argument declared
-    }
-```
->***atoi()***: convert an ascii to an integer<br>#include <stdlib.h><br>int atoi(const char* nptr)
-
-
-```cpp
-a = (int**)malloc(len*sizeof(int*));
-b = (int**)malloc(len*sizeof(int*));
-c = (int**)malloc(len*sizeof(int*));
-
-for(int i = 0;i<len;i++){
-    a[i] = (int*)malloc(len*sizeof(int));
-    b[i] = (int*)malloc(len*sizeof(int));
-    c[i] = (int*)malloc(len*sizeof(int));
-    for(int j = 0;j<len:j++){
-        a[i][j] = random()%10;
-        b[i][j] = random()%10;
-    }
-}
-```
-
-Add a random seed using ***srandom()*** to add the code below so that an integer value of a different value is generated over time.
-
-```cpp
-#include <time.h>
-
-int main(...){
-    srandom(time(NULL))
-    ...
-}
-```
-
-## Output the value of the matrix randomly created
-
-```cpp
-int printf_matrix(int **src, char* name, int len){
-    printf("=== %s matrix ===\n",name);
-    for(int i = 0;i<len;i++){
-        for(int j = 0;j<len:j++){
-            printf("%d ",src[i][j]);
-        }
-        printf("\n");
-    }
-    return 0;
-}
-```
 
 ## Displaying time taken for the processing
 
@@ -108,11 +50,13 @@ finish = clock();
 printf("processing time taken: %f(s)\n",((double)finish-start)/CLOCKS_PER_SEC);
 ```
 
-```cpp
-processing time taken: 0.000006(s)
+```consol
+processing time take: 0.000006(s)
 ```
 
 # matrix.c
+
+## matrix multiplication
 
 The equation for the multiplication of the matrix is shown in Google. To create a function for it, double pointers to three matrices were received as factors, and length was also received as factors.
 
@@ -132,13 +76,88 @@ int matrix_mul(int **src1, int **src2, int **dest, int len){
 ```
 > Adding **return 0;** to all functions are to put error detection
 
-# matrix.h
+## Output the value of the matrix randomly created
 
+```cpp
+int printf_matrix(int **src, char* name, int len){
+    printf("=== %s matrix ===\n",name);
+    for(int i = 0;i<len;i++){
+        for(int j = 0;j<len:j++){
+            printf("%d ",src[i][j]);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+```
+## Initialization of matrixes
+
+In the next step, code will be written to initialize matrices A, B, and C for calculating C. However, the purpose of writing this code is to use threads. To achieve that, the matrix sizes will exceed 1000x1000. Since the stack size won't be able to handle even one matrix, causing a core dump, matrices A, B, and C will be dynamically allocated.
+
+Additionally, the matrix sizes will be obtained as command line arguments in the main function by adding the argc and argv parameters.
+
+```cpp
+int main(int argc,char** argv)
+    if (argc == 2){
+        len = atoi(argv[1]);
+    }else{
+        len = 10; //intialzing as 10 if no argument declared
+    }
+
+    matrix_Init(&a, &b, &c, len);
+    ...
+```
+>***atoi()***: convert an ascii to an integer<br>#include <stdlib.h><br>int atoi(const char* nptr)
 
 
 ```cpp
+void matrix_Init(int*** aa, int*** bb, int*** cc, int len){
+
+    int** a;
+    int** b;
+    int** c;
+
+    a = (int**)malloc(len*sizeof(int*));
+    b = (int**)malloc(len*sizeof(int*));
+    c = (int**)malloc(len*sizeof(int*));
+
+    for(int i = 0;i<len;i++){
+        a[i] = (int*)malloc(len*sizeof(int));
+        b[i] = (int*)malloc(len*sizeof(int));
+        c[i] = (int*)malloc(len*sizeof(int));
+        for(int j = 0;j<len:j++){
+            a[i][j] = random()%10;
+            b[i][j] = random()%10;
+        }
+    }
+
+    *aa = a;
+    *bb = b;
+    *cc = c;
+}
+```
+
+Add a random seed using ***srandom()*** to add the code below so that an integer value of a different value is generated over time.
+
+```cpp
+#include <time.h>
+
+int main(...){
+    srandom(time(NULL))
+    ...
+}
+```
+
+
+# matrix.h
+
+
+```cpp
+int printf_matrix(int**,char*,int);
+int matrix_Init(int***,int***,int***,int);
 int matrix_mul(int**, int**, int**, int);
 ```
+
 
 
 
