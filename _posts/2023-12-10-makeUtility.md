@@ -84,6 +84,9 @@ CC: gcc
 
 all: $(TARGET)
 
+$(TARGET): $(OBJ)
+    $(CC) -o $(TARGET) $(OBJ)
+
 .o.c:
     $(CC) $(CFLAGS) $<
 
