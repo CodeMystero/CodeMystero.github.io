@@ -68,7 +68,7 @@ void *func2(void* arg){
 
 The following function is a very simple example that uses semaphores to eliminate collisions between two threads. The key point here is that the two threads perform operations independently of each other, without caring about the order. If the two threads need to proceed in a specific order, the code should be written using two flags, allowing each thread to raise the other's flag in a coordinated manner.
 
-## Syncronization with semaphore
+# Syncronization with semaphore
 
 ```cpp
 #include <semaphore.h>
