@@ -1,7 +1,7 @@
 ---
 layout: single
 
-title: "[Linux] Making a calculator using RPi"
+title: "[Linux] Rasp Pi project - calculator"
 excerpt: "raspberryPi, LCD monitor and 4X4 buttons"
 
 categories:
