@@ -79,7 +79,7 @@ void pin_pupd(){
 
 The variable key_pad represents a mapping of values from the matrix above to a keypad in a one-to-one correspondence. The reason for configuring the keypad in this way is to implement a calculator.
 
-<p align="center"><img src="images\buttonlayout.png"></p>
+<p align="center"><img src="assets/images/2023-12-14-keypadLcd/buttonlayout.png"></p>
 
 ## pin_mode()
 
