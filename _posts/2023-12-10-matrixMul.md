@@ -1,7 +1,7 @@
 ---
 layout: single
 
-title: "[POS] Matrix multiplcation"
+title: "[POS] Product of matrix"
 excerpt: "let's code matrix multiplication on Linux server"
 
 categories:
