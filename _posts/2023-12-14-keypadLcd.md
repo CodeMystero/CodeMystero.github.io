@@ -1,7 +1,7 @@
 ---
 layout: single
 
-title: "[Linux] Making an electronic calculator"
+title: "[Linux] Making a calculator using RPi"
 excerpt: "raspberryPi, LCD monitor and 4X4 buttons"
 
 categories:
@@ -32,11 +32,11 @@ sidebar:
 void pin_mode();
 void pin_pupd();
 void read_keypad(const int, int);
-
-char key_pad[4][4] = {{'1','2','3','+'},
-                      {'4','5','6','-'},
-                      {'7','8','9','*'},
-                      {'=','0','#','/'}};
+// '{' replaced to '(' due to markdown issue
+char key_pad[4][4] = {('1','2','3','+'),
+                      ('4','5','6','-'),
+                      ('7','8','9','*'),
+                      ('=','0','#','/')};
 
 char value = 'a';
 
