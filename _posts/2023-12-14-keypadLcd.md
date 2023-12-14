@@ -274,4 +274,4 @@ This function determines the line of the LCD panel. It takes the addresses of LI
 
 
 
-<p align="center"><img src="images\keppad_lcd.gif"></p>
+<p align="center"><img src="assets/images/2023-12-14-keypadLcd/keppad_lcd.gif"></p>
