@@ -7,7 +7,7 @@ excerpt: "raspberryPi, LCD monitor and 4X4 buttons"
 categories:
   - Linux server
 
-tag: [linux, raspberryPi, lcd] 
+tag: [linux, raspberryPi, project] 
 
 toc: true
 toc_sticky: true
