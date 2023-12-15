@@ -7,7 +7,7 @@ excerpt: "argument count, argument vector"
 categories:
   - Linux server
 
-tag: [C/C++, linux, system developement] 
+tag: [C/C++, linux] 
 
 toc: true
 toc_sticky: true
