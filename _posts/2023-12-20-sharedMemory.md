@@ -1,7 +1,7 @@
 ---
 layout: single
 
-title: "[Linux] Shared memory"
+title: "[Linux] Shared memory - IPC for multi process"
 excerpt: "Shared memory to be accessed by multi-processing"
 
 categories:
