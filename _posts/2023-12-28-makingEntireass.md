@@ -45,3 +45,45 @@ root@raspberrypi:/project/linuxSrc # ./build.sh
 ```
 
 Now you can see all files with extension .s and .i to inspect and analyze how kernel is most of which is made of assembly code.
+
+
+# How to preprocess only 1 file to inspect
+
+```bash
+root@raspberrypi:/project/linuxSrc # vi build_preprocess.sh
+```
+type below code
+
+```cpp
+#!/bin/bash
+
+echo "configure build output path"
+
+KERNEL_TOP_PATH="$( cd "$(dirname "$0")" ; pwd -P)"
+OUTPUT="$KERNEL_TOP_PATH/out"
+echo "$OUTPUT"
+
+KERNEL=kernel8
+BUILD_LOG="$KERNEL_TOP_PATH/rpi_preprocess_build_log.txt"
+
+PREPROCESS_FILE=$1
+
+echo "build preprocess file: $PREPROCESS_FILE"
+
+echo "move kernel source"
+cd linux
+
+echo "make defconfig"
+make O=$OUTPUT bcm2711_defconfig
+
+echo "kernel build"
+make $PREPROCESS_FILE O=$OUTPUT -j4 2>&1 | tee $BUILD_LOG
+```
+Changing authorization and try to generate ***core.c*** file
+
+```bash
+root@raspberrypi:/project/linuxSrc # chmod 755 build_preprocess.sh
+root@raspberrypi:/project/linuxSrc # ./build_preprocess.sh /kernel/sched/core.i
+```
+
+Now core.i can be seen made in subject directory in short time
