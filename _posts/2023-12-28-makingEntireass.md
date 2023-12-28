@@ -1,7 +1,7 @@
 ---
 layout: single
 
-title: "[Linux] Generate assembly files to analize and inspect"
+title: "[Linux] Generate preprocess files to inspect"
 excerpt: "Let's create .s.i files for detail information"
 
 categories:
@@ -46,8 +46,7 @@ root@raspberrypi:/project/linuxSrc # ./build.sh
 
 Now you can see all files with extension .s and .i to inspect and analyze how kernel is most of which is made of assembly code.
 
-
-# How to preprocess only 1 file to inspect
+### How to preprocess only 1 file to inspect
 
 ```bash
 root@raspberrypi:/project/linuxSrc # vi build_preprocess.sh
