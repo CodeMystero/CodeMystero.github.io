@@ -22,7 +22,7 @@ sidebar:
 # Strcture of Kernel source
 
 
-<p align="center"><img src="images\linux_structure.png"></p>
+<p align="center"><img src="/assets/images/2023-12-29-linuxStructure/linux_structure.png"></p>
 
 
 
