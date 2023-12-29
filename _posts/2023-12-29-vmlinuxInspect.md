@@ -21,7 +21,7 @@ sidebar:
 
 
 
-## ELF (Executable and Linkable FOrmat)
+## ELF (Executable and Linkable Format)
 
 "The binary file format used in UNIX and its derivatives for various types of files such as executable files, object files, shared libraries, and even core dump files. It possesses platform independence."
 
@@ -130,7 +130,7 @@ root@raspberrypi:/project/objview # vi a.s
 ```
 crawl the vmlinux data within the given address range and save it to the file a.s.
 
-```vim
+```bash
 
 vmlinux:     file format elf64-littleaarch64
 
