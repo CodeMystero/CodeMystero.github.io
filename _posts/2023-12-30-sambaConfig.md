@@ -64,4 +64,26 @@ find out the profile directory in samba.conf, then add below dir details
 root@raspberrypi:/etc/samba # service smbd restart
 ```
 
-"Now, if you enter the Raspberry Pi's IP address in the Windows Run dialog and log in, you will find the directory you configured. You can freely access the file system."
+"Now, if you enter the Raspberry Pi's IP address in the Windows Run dialog and log in, you will find the directory you configured. You can freely access the file system." We can only download not able to upload.
+
+## Change config to upload
+
+```bash
+root@raspberrypi:/ # smbpasswd -x pi
+Deleted user pi.
+root@raspberrypi:/ # smbpasswd -a root
+New SMB password:
+Retype new SMB password:
+Added user pi.
+root@raspberrypi:/ # cd /etc/samba/
+root@raspberrypi:/etc/samba # vi smb.conf 
+```
+
+> Change *valid users = raspi* to *= root*
+
+```bash
+root@raspberrypi:/etc/samba # service smbd restart
+```
+now you can upload file either
+
+
