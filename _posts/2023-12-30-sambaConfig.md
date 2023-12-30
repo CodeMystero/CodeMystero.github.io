@@ -79,7 +79,7 @@ root@raspberrypi:/ # cd /etc/samba/
 root@raspberrypi:/etc/samba # vi smb.conf 
 ```
 
-> Change *valid users = raspi* to *= root*
+> Change ***valid users = raspi*** to ***= root***
 
 ```bash
 root@raspberrypi:/etc/samba # service smbd restart
